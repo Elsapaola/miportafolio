@@ -1,0 +1,85 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+h1{
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+
+h5 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.titulos {
+    font-weight: 700;
+}
+
+.subtitulos {
+    font-weight: 300;
+    color: #717070;
+}
+
+.tipo {
+    font-family: 'Modak', cursive;
+    font-size: 37pt;
+    font-weight: 700;
+}
+
+
+.banner {
+    background-repeat: no-repeat;
+}
+
+.banner img{
+    width: 100%;
+}
+
+#menu {
+    position: fixed;
+}
+
+.fondo {
+    background-color: #eed5ce;
+}
+
+.border-top {
+    border-top: 1px solid #ffffff!important;
+}
+
+.card {
+    border: none;
+
+}
+
+.navbar {
+    background-color: #c4757a!important;
+    color: white;
+    width: 100vw;
+}
+
+.footer {
+    background-color: #0f313a;
+    color: #ffffff;
+}
+
+.fab {
+    color: #ffffff;
+    margin: 1px 10px;
+}
+
+#trabajos {
+    position: sticky;
+    z-index: -1;
+}
+
+#sobremi {
+    position: sticky;
+    z-index: -2;
+}
