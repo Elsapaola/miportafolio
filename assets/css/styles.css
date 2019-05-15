@@ -2,6 +2,13 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+header {
+    background-image: url('../img/fondositio.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    padding-bottom: 10rem;
+}
 
 h1{
     font-size: 36px;
@@ -11,9 +18,24 @@ h2 {
     font-size: 30px;
 }
 
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    color: #797979;
+}
 
 h5 {
     font-size: 20px;
+    font-weight: 400;
+}
+
+p, h2, h2, h4, h5 {
+    color: #797979
+}
+
+h3 {
     font-weight: 400;
 }
 
@@ -32,9 +54,9 @@ h5 {
     font-weight: 700;
 }
 
-
-.banner {
-    background-repeat: no-repeat;
+.transparencia {
+    background-color: #342f4463;
+    border-radius: 5px;
 }
 
 .banner img{
@@ -59,13 +81,13 @@ h5 {
 }
 
 .navbar {
-    background-color: #c4757a!important;
+    background-color: #33355b;
     color: white;
     width: 100vw;
 }
 
 .footer {
-    background-color: #0f313a;
+    background-color: #33355b;
     color: #ffffff;
 }
 
@@ -82,4 +104,24 @@ h5 {
 #sobremi {
     position: sticky;
     z-index: -2;
+}
+
+.right {
+    float: right;
+}
+
+.imagen {
+    width: 50%;
+}
+
+.imagen1 {
+    width: 17%;
+}
+
+.textoparrafo {
+    text-align: justify;
+}
+
+em {
+    color: #797979;
 }
