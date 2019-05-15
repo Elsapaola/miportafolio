@@ -1,3 +1,7 @@
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip(); 
+});
+
 $(function(){
 
   $("a").click(function(event){
@@ -14,7 +18,6 @@ $(function(){
     }
   });
 
-  $('[data-toggle="popover"]').popover();
-
 });
+
 
